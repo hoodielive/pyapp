@@ -2,7 +2,7 @@
 
 import getpass
 import paramiko
-HOSTNAME = 'rhsrv01.rhce.lab'
+HOSTNAME = 'moonchild'
 PORT = 22
 
 def run_ssh_cmd(username, password, cmd, hostname=HOSTNAME,
