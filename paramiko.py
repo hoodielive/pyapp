@@ -15,7 +15,7 @@ def run_ssh_cmd(username, password, cmd, hostname=HOSTNAME,
     print(stdout.read())
 
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     username = input("Enter username: ")
     password = getpass.getpass(prompt="Enter password: ")
     cmd = 'ls -l /dev'
